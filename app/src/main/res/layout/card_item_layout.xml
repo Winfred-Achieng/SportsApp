@@ -16,7 +16,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageview"
+            android:id="@+id/imageviewcard"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:src="@drawable/volleyball"
@@ -27,7 +27,7 @@
             />
 
         <TextView
-            android:id="@+id/textview"
+            android:id="@+id/textviewcard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="35sp"
