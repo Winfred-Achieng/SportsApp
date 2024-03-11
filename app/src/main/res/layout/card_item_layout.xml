@@ -2,13 +2,14 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="250dp"
+    android:layout_height="170dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="@color/black"
+    app:cardBackgroundColor="@color/white"
     android:layout_margin="8dp"
     app:cardElevation="20dp"
     app:cardCornerRadius="20dp"
     android:id="@+id/cardview"
+    android:clickable="true"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -30,7 +31,7 @@
             android:id="@+id/textviewcard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="35sp"
+            android:textSize="20sp"
             android:text="Title"
             android:layout_margin="25dp"
             android:textColor="@color/black"

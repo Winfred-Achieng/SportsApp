@@ -23,7 +23,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.SportsView
     @Override
     public SportsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item_layout,parent,true);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item_layout,parent,false);
         return new SportsViewHolder(itemView);
     }
 
